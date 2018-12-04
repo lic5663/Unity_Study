@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class NewBehaviourScript : MonoBehaviour
+public class BoardManager : MonoBehaviour
 {
 	[Serializable]
 	public class Count
@@ -73,8 +73,7 @@ public class NewBehaviourScript : MonoBehaviour
 	{
 		int randomIndex = Random.Range (0,gridPositions.Count);
 		Vector3 randomPosition = gridPositions [randomIndex];
-		gridPositions.RemoveAt (randomIndex); //아이템 벽 동일 자리 중복을 막고자 해당 영역을 랜덤 인
-											  // 랜덤 인덱스에서 제거
+		gridPositions.RemoveAt (randomIndex); 
 		return randomPosition;
 	}
 
