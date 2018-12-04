@@ -5,8 +5,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
 	// GameManager is only one.
 	public static GameManager instance = null;
-
 	public BoardManager boardScript;
+	public int playerFoodPoints = 100;
+	[HideInInspector] public bool playersTurn = true;
+
+
 	public int level = 3;
 
 	// Use this for initialization
@@ -28,6 +31,11 @@ public class GameManager : MonoBehaviour {
 	void InitGame()
 	{
 		boardScript.SetupScene (level);
+	}
+
+	public void GameOver()
+	{
+		enabled = false;
 	}
 	
 	// Update is called once per frame
