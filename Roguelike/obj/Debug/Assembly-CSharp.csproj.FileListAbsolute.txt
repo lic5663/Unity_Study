@@ -159,5 +159,3 @@ C:\Users\Me\Desktop\workspace\unity\Roguelike\Temp\bin\Debug\UnityEngine.HoloLen
 C:\Users\Me\Desktop\workspace\unity\Roguelike\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\Users\Me\Desktop\workspace\unity\Roguelike\obj\Debug\Assembly-CSharp.dll
 C:\Users\Me\Desktop\workspace\unity\Roguelike\obj\Debug\Assembly-CSharp.pdb
-C:\Users\Me\Desktop\workspace\unity\Roguelike\Temp\bin\Debug\UnityEditor.UI.dll
-C:\Users\Me\Desktop\workspace\unity\Roguelike\Temp\bin\Debug\UnityEditor.UI.xml
